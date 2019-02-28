@@ -16,8 +16,11 @@ class Confirmation extends Component{
         const {values: { firstName, lastName, email, phnumber, age, address }} = this.props;
 
         return(
-        <div id="main" class="ui four column centered grid">
-        <div class="column">
+<div class="ui two column centered grid" id="main">
+  <div class="one column centered row">
+</div>
+  <div class="centered row">
+    <div class="column">
         <div class="ui raised  segment">
                 <h1 className="ui centered">Confirm your Details</h1>
                 <p>Click Confirm if the following details have been correctly entered</p>
@@ -66,6 +69,8 @@ class Confirmation extends Component{
             </div>
             </div>
             </div>
+            </div>
+             
         )
     }
 }

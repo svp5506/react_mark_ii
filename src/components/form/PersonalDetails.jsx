@@ -16,11 +16,12 @@ class PersonalDetails extends Component{
     render(){
         const { values } = this.props;
         return(
-        <div id="main">
-            <div class="ui four column centered grid">
-                <div class="column">
-                <div class="ui raised segment">
-            <div class="ui large form">
+<div class="ui two column centered grid" id="main">
+  <div class="one column centered row">
+</div>
+  <div class="centered row">
+    <div class="column">
+            <div class="ui large form raise segment">
                 <h1 className="ui centered">Enter User Details</h1>
                 <div class="field">
                     <label>First Name</label>
@@ -62,7 +63,8 @@ class PersonalDetails extends Component{
             </div>
              </div>
                </div>
-               </div>
+               
+
         )
     }
 }

@@ -13,9 +13,12 @@ class Address extends Component{
     render(){
         const { values } = this.props
         return(
-            <div id="main">
-        <div class="ui four column centered grid">
-        <div class="column">
+            <div>
+<div class="ui two column centered grid" id="main">
+  <div class="one column centered row">
+</div>
+  <div class="centered row">
+    <div class="column">
         <div class="ui raised  segment">
         <div class="ui large form">
             <h1 className="ui centered">Enter Your Address</h1>
@@ -28,6 +31,7 @@ class Address extends Component{
             </div>
             <Link to="/"><button class="ui teal button">Back</button></Link>
             <button class="ui teal button" onClick={this.saveAndContinue}>Save And Continue </button>
+        </div>
         </div>
         </div>
         </div>
