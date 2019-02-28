@@ -10,3 +10,10 @@
   background-size: cover;
   background-attachment:fixed;
 }
+
+#login_form {
+    max-width: 600px;
+    margin: auto;
+    min-width:400px;
+    padding:auto;
+}
